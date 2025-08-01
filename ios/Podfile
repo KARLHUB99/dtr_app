@@ -23,7 +23,7 @@ target 'Runner' do
 
   flutter_root = ENV['FLUTTER_ROOT']
   unless flutter_root
-    raise "FLUTTER_ROOT environment variable is not set."
+    raise "FLUTTER_ROOT environment variable is not set. Codemagic should provide it."
   end
 
   load File.join(flutter_root, 'packages', 'flutter_tools', 'bin', 'podhelper.rb')
