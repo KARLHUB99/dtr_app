@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "66639516677",
+    "project_id": "dtrapp-dc61f",
+    "storage_bucket": "dtrapp-dc61f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66639516677:android:83389eef474d8663e9786c",
+        "android_client_info": {
+          "package_name": "com.example.dtr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66639516677-juchcmu0pu2ulhftaqvg4t0v4j144pvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNx9so1mucCAQ4UjlQnFs4NUGfCWTBWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66639516677-juchcmu0pu2ulhftaqvg4t0v4j144pvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66639516677:android:fc1b56367e37663ce9786c",
+        "android_client_info": {
+          "package_name": "com.panadero.dtr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66639516677-juchcmu0pu2ulhftaqvg4t0v4j144pvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNx9so1mucCAQ4UjlQnFs4NUGfCWTBWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66639516677-juchcmu0pu2ulhftaqvg4t0v4j144pvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
