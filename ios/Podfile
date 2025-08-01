@@ -1,12 +1,20 @@
+platform :ios, '13.0'
+
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  flutter_installation
-
   flutter_root = ENV['FLUTTER_ROOT']
   unless flutter_root
-    raise "FLUTTER_ROOT environment variable is not set. Codemagic should provide it."
+    raise "FLUTTER_ROOT environment variable is not set. Codemagic provides this automatically."
   end
 
   load File.join(flutter_root, 'packages', 'flutter_tools', 'bin', 'podhelper.rb')
