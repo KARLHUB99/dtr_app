@@ -12,11 +12,8 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  flutter_root = ENV['FLUTTER_ROOT']
-  unless flutter_root
-    raise "FLUTTER_ROOT environment variable is not set. Codemagic provides this automatically."
-  end
+  flutter_install_ios_engine_pod
 
-  load File.join(flutter_root, 'packages', 'flutter_tools', 'bin', 'podhelper.rb')
-  install_all_flutter_pods
+  pod 'FirebaseCore'
+  # Add other pods as needed, e.g., for camera, location, etc.
 end
